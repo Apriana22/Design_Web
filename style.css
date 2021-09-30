@@ -1,0 +1,76 @@
+.header {
+	background-color: darkcyan;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+}
+
+.topnav{
+	overflow: hidden;
+	background-color: darkgray;
+}
+
+.topnav a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.topnav a:hover {
+	background-color: darkcyan;
+	color: white;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer {
+	background-color: darkcyan;
+	padding: 18px;
+	text-align: center;
+}
+
+.footer p:hover {
+	background-color: darkcyan
+	color: darkgray;
+}
+
+img {
+	width: 400px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-color: white;
+	border-width: 0px;
+	border-style: solid;
+}
+
+.banner {
+	background-color: darkcyan;
+	padding: 10px;
+	margin-top: 200px;
+}
+
+.bannerr {
+	background-color: darkcyan;
+	padding: 10px;
+	margin-top: 50px;
+}
+
+.fixed-nav{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
